@@ -1,0 +1,399 @@
+lexical: // End Of Line Comment
+
+token: COMMENT
+
+lexical: /*
+ * This is Traditional Comment
+ */
+token: COMMENT
+
+lexical: boolean
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: true
+token: BOOL_LITERAL
+
+lexical: ;
+token: SEPARATOR
+
+lexical: int
+token: KEYWORD
+
+lexical: term1
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: 2
+token: INT_LITERAL
+
+lexical: ;
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: term2
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: 1.2
+token: FLOAT_LITERAL
+
+lexical: ;
+token: SEPARATOR
+
+lexical: string
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: 123
+token: INT_LITERAL
+
+lexical: abc
+token: IDENTIFIER
+
+lexical: n
+token: IDENTIFIER
+
+lexical: int
+token: KEYWORD
+
+lexical: sum
+token: IDENTIFIER
+
+lexical: (
+token: SEPARATOR
+
+lexical: int
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ,
+token: SEPARATOR
+
+lexical: int
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: int
+token: KEYWORD
+
+lexical: c
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: a
+token: IDENTIFIER
+
+lexical: +
+token: ARITHMETIC_OPERATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: return
+token: KEYWORD
+
+lexical: c
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: multiply
+token: IDENTIFIER
+
+lexical: (
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ,
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: return
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: *
+token: ARITHMETIC_OPERATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: divide
+token: IDENTIFIER
+
+lexical: (
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ,
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: if
+token: KEYWORD
+
+lexical: (
+token: SEPARATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: !=
+token: EQUALITY_OPERATOR
+
+lexical: 0
+token: INT_LITERAL
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: a
+token: IDENTIFIER
+
+lexical: =
+token: ASSIGNMENT_OPERATOR
+
+lexical: a
+token: IDENTIFIER
+
+lexical: /
+token: ARITHMETIC_OPERATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: return
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: greater
+token: IDENTIFIER
+
+lexical: (
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ,
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: if
+token: KEYWORD
+
+lexical: (
+token: SEPARATOR
+
+lexical: a
+token: IDENTIFIER
+
+lexical: >
+token: RELATIONAL_OPERATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: return
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: smaller
+token: IDENTIFIER
+
+lexical: (
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: a
+token: IDENTIFIER
+
+lexical: ,
+token: SEPARATOR
+
+lexical: float
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: if
+token: KEYWORD
+
+lexical: (
+token: SEPARATOR
+
+lexical: a
+token: IDENTIFIER
+
+lexical: <
+token: RELATIONAL_OPERATOR
+
+lexical: b
+token: IDENTIFIER
+
+lexical: )
+token: SEPARATOR
+
+lexical: {
+token: SEPARATOR
+
+lexical: return
+token: KEYWORD
+
+lexical: b
+token: IDENTIFIER
+
+lexical: ;
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+
+lexical: }
+token: SEPARATOR
+

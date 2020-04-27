@@ -1,0 +1,37 @@
+
+// End Of Line Comment
+/*
+ * This is Traditional Comment
+ */
+boolean b = true;
+int term1=2;
+float term2 = 1.2;
+string a = "123abc\n"
+
+int sum(int a, int b) {
+	int c = a + b;
+	return c;
+}
+
+float multiply(float a, float b) {
+	return a * b;
+}
+
+float divide(float a, float b) {
+	if (b != 0) {
+		a = a/b;
+	}
+	return b;
+}
+
+float greater(float a, float b) {
+	if (a > b) {
+		return a;
+	}
+}
+
+float smaller (float a, float b) {
+	if (a < b) {
+		return b;
+	}
+}
